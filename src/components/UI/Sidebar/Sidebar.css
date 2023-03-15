@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  background: #ffffff;
+  border-radius: 32px;
+  margin: 20px 0 0 0;
+}
+
+/* divs inside the nav */
+nav div {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  height: 50px;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+  border-left: 0px solid #2c2f56;
+  transition: all 0.1s;
+}
+
+nav > *:hover {
+  border-left: 4px solid #2c2f56;
+}
+
+nav > *:hover h3 {
+  font-weight: 500;
+}
+
+nav h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #2c2f56;
+  user-select: none;
+}
+
+nav > *.active {
+  border-left: 4px solid #2c2f56;
+}
+
+nav > *.active h3 {
+  font-weight: 500;
+}

@@ -1,0 +1,108 @@
+.concert-container {
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: white;
+}
+.concert-container img {
+  width: 100%;
+}
+
+.concert-details {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.title-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concert-details .title-desc .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2c2b5c;
+}
+.concert-details .title-desc h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(66, 66, 66, 0.8);
+}
+
+.concert-details .title-desc p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d4d4d;
+}
+
+.concert-action-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concert-action {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.concert-action img {
+  width: 25px;
+  height: 25px;
+}
+
+.concert-action .action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concert-date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.concert-date .date {
+  padding: 20px 0 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4c4c4c;
+}
+
+.concert-date .location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-main);
+}
+
+.concert-price {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  padding-top: 20px;
+  color: #2c2b5c;
+  align-items: flex-end;
+  gap: 0.4rem;
+}
+
+.concert-price h4 {
+  font-weight: 300;
+  height: fit-content;
+}
+
+.concert-price h3 {
+  font-size: 24px;
+}

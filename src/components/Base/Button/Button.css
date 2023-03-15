@@ -1,0 +1,39 @@
+.tt-button {
+  width: 128px;
+  height: 56px;
+
+  border: none;
+  outline: transparent;
+  color: white;
+
+  background: var(--color-main);
+  border-radius: 48px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tt-button:hover {
+  box-shadow: 0px 4px 20px rgba(20, 73, 163, 0.3);
+}
+
+.tt-button.light {
+  color: var(--color-main);
+  background: #fff;
+  border: 1px solid var(--color-main);
+}
+
+.tt-button.transparent {
+  border: none;
+  background: none;
+  color: var(--color-main);
+}
+.tt-button.full {
+  width: auto;
+}
